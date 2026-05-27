@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Official page to install KorOS from.">
+        <meta name="description" content="Official-News and Developer updates of KoreOS">
 
         <link rel="stylesheet" href="style.css">
 
@@ -12,7 +12,7 @@
 
         <!-- Title -->
         <link rel="icon" type="image/png" href="../icon.png">
-        <title>KorOS - Installation</title>
+        <title>KorOS - Manual</title>
     </head>
 
     <body>
@@ -24,19 +24,48 @@
 
             <nav class="nav-links">
                 <a href="https://Nixxy-lv.github.io/KorOS-Web">Home</a>
+                <a href="https://Nixxy-lv.github.io/KorOS-Web/Install">Install</a>
                 <a href="https://Nixxy-lv.github.io/KorOS-Web/Manual">Manual</a>
-                <a href="https://Nixxy-lv.github.io/KorOS-Web/News">News</a>
                 <a href="mailto:nixdev888@gmail.com">Contact</a>
             </nav>
         </header>
 
-        <h1>This Page is not yet ready</h1>
+        <!-- HERO -->
+<section class="hero fade">
+  <div class="hero-card">
+    <h1>Latest News:</h1>
+    <p>
+    News page was made for publishing Changelogs of most recent versions and Important KorOS News.
+    </p>
+  </div>
+</section>
 
-        <a class="down-btn fade" href="./test.txt" download>
-            <i class="fa-solid fa-download"></i> Download .iso
-        </a>
+<section class="clog fade">
+    <div class="clogf">
+    <h2>V0.0.0</h2>
+    <p><br>CHANGELOG PLACEHOLDER<br>No release has been made yet.</p>
+    </div>
+</section>
 
-        <!-- SCROLL FADE-->
+<!-- FOOTER -->
+<footer class="footer fade">
+  <div class="footer-content">
+    <h3>KorOS</h3>
+    <p>Follow the project</p>
+
+    <div class="socials">
+      <a href="https://github.com/Nixxy-lv/KorOS"><i class="fa-brands fa-github"></i></a>
+      <a href="https://discord.gg/TvWBKNhU"><i class="fa-brands fa-discord"></i></a>
+      <a href="mailto:nixdev888@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="copy">
+      © 2026 KorOS
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL FADE-->
 <script>
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -48,5 +77,6 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll(".fade").forEach(el => observer.observe(el));
 </script>
+
     </body>
 </html>
