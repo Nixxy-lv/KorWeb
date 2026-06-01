@@ -80,6 +80,10 @@ body {
   overflow: hidden;
 }
 
+.hero-card h1 {
+  font-family: "Fraunces", "JetBrains Mono", sans-serif;
+}
+
 /* GRADIENT EFFECT */
 .hero-card > * {
   position: relative;
