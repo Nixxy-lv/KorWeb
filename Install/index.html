@@ -6,7 +6,7 @@
 
         <link rel="stylesheet" href="style.css">
 
-        <!-- Icons (Font Awesome) -->
+        <!-- Fonts -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.20/index.min.css">
 
@@ -15,7 +15,7 @@
         <title>KorOS - Installation</title>
     </head>
 
-    <body>
+    <>
         <header class="topbar">
             <div class="logo">
                 <img src="../icon.png" alt="KorOS logo">
@@ -30,11 +30,73 @@
             </nav>
         </header>
 
-        <h1>This Page is not yet ready</h1>
+        <div class="container">
+            <div class="st-intro">
+                <p style="font-family: Segoe UI, sans-serif; text-transform: uppercase;">Tested build</p>
+                <h1 style="font-family: Fraunces, sans-serif; font-size: 46px;">KorOS's Latest Release.</h1>
+            </div>
 
-        <a class="down-btn fade" href="./test.txt" download>
-            <i class="fa-solid fa-download"></i> Download .iso
-        </a>
+            <div class="stable fade">
+                <div class="stable-rel">
+                    <p style="font-family: Manrope, sans-serif; text-transform: uppercase;
+                    ">Latest Release</p>
+                    <h1>0.0.0</h1>
+                    <p>0.0.0-Pre-Developement  Published on: ?M? DD, YYYY</p>
+                    <ul>
+                        <li> No release has been made yet</li>
+                        <p>KorOS hasn't started developement yet but some minimal changes can be found on KorOS's official repository.</p>
+                    </ul>
+                    <div class="gh-down">
+                        <a class="down-btn fade" href="./test.txt" download> <!-- Change to https://github.com/Nixxy-lv/KorOS/releases/download/RELEASENAME/ISOFILE -->
+                            <i class="fa-solid fa-download"></i> Download .iso
+                        </a>
+                        <a class="gh-btn" href="https://github.com/Nixxy-lv/KorOS/releases/tag/0.0.0">View Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nt-intro">
+                <p style="font-family: Segoe UI, sans-serif; text-transform: uppercase;">Unstable build</p>
+                <h1 style="font-family: Fraunces, sans-serif; font-size: 46px;">KorOS's Nightly Release.</h1>
+            </div>
+
+            <div class="uni fade">
+                <div class="uni-rel">
+                    <p style="font-family: Manrope, sans-serif; text-transform: uppercase;
+                    ">Nightly Release</p>
+                    <h1>Nighly Build (YYYY/RRRRR)</h1> <!-- Remove slashe | R = Release numbers-->
+                    <p>Nightly  Published on: ??? DD, YYYY</p>
+                    <ul>
+                        <li> No release has been made yet</li>
+                        <p>KorOS hasn't started developement yet but some minimal changes can be found on KorOS's official repository.</p>
+                    </ul>
+                    <div class="gh-down">
+                        <a class="down-btn fade" href="./test.txt" download> <!-- Change to https://github.com/Nixxy-lv/KorOS/releases/download/nightly/ISOFILE -->
+                            <i class="fa-solid fa-download"></i> Download .iso
+                        </a>
+                        <a class="gh-btn" href="https://github.com/Nixxy-lv/KorOS/releases/tag/nightly">View Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+<footer class="footer fade">
+  <div class="footer-content">
+    <h3>KorOS</h3>
+    <p>Follow the project</p>
+
+    <div class="socials">
+      <a href="https://github.com/Nixxy-lv/KorOS"><i class="fa-brands fa-github"></i></a>
+      <a href="https://discord.gg/JJ9jdAQJpT"><i class="fa-brands fa-discord"></i></a>
+      <a href="mailto:nixdev888@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="copy">
+      © 2026 KorOS
+    </div>
+  </div>
+</footer>
 
         <!-- SCROLL FADE-->
 <script>

@@ -10,13 +10,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px 40px;
+  padding: 25px 40px;
   background-color: #171a21;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
   position: sticky;
   top: 0;
   z-index: 100;
-  gap: 40px;
+  gap: 200px;
 }
 
 .logo {
@@ -35,6 +35,10 @@ body {
   object-fit: contain;
   display: block;
   border-radius: 6px;
+}
+
+.logo span {
+  font-family: Fraunces, "JetBrains Mono", sans-serif;
 }
 
 .nav-links a {
