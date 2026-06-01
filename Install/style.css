@@ -38,7 +38,7 @@ body {
 }
 
 .logo span {
-  font-family: Fraunces, "JetBrains Mono", sans-serif;
+  font-family: "Fraunces", "JetBrains Mono", sans-serif;
 }
 
 .nav-links a {
@@ -88,7 +88,7 @@ body {
 }
 
 .uni-rel h1 {
-  font-family: Fraunces, "JetBrains Mono", sans-serif;
+  font-family: "Fraunces", "JetBrains Mono", sans-serif;
 }
 
 @keyframes heroGlow {
